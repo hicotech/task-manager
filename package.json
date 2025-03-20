@@ -1,0 +1,29 @@
+{
+    "name": "task-manager",
+    "workspaces": [
+        "backend",
+        "frontend",
+        "shared-library"
+    ],
+    "author": "Stanislav Majlath",
+    "scripts": {
+        "dev:backend": "cd backend && npm run server",
+        "dev:frontend": "cd frontend && npm run dev",
+        "dev": "concurrently --kill-others \"npm run dev:backend\" \"npm run dev:frontend\"",
+        "format": "prettier --write backend/src frontend/src shared-library/src",
+        "test:unit:backend": "cd backend && npm run test:unit",
+        "test:unit:frontend": "cd frontend && npm run test:unit",
+        "test:unit": "npm run test:unit:backend && npm run test:unit:frontend"
+    },
+    "dependencies": {
+        "@task-manager/shared-library": "^1.0.0"
+    },
+    "devDependencies": {
+        "@types/jest": "^29.5.14",
+        "concurrently": "^9.1.2",
+        "jest": "^29.7.0",
+        "prettier": "^2.8.8",
+        "typescript": "^5.8.2",
+        "ts-jest": "^29.2.6"
+    }
+}

@@ -1,0 +1,52 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[` 1`] = `
+<div>
+  <svg
+    fill="currentColor"
+    height="1.5rem"
+    viewBox="0 0 24 24"
+    width="1.5rem"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <rect
+      height="24"
+      width="24"
+    />
+  </svg>
+</div>
+`;
+
+exports[`Rectangle Props testing Color 1`] = `
+<div>
+  <svg
+    fill="#ff0000"
+    height="1.5rem"
+    viewBox="0 0 24 24"
+    width="1.5rem"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <rect
+      height="24"
+      width="24"
+    />
+  </svg>
+</div>
+`;
+
+exports[`Rectangle Props testing Size 1`] = `
+<div>
+  <svg
+    fill="currentColor"
+    height="3.5rem"
+    viewBox="0 0 24 24"
+    width="3.5rem"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <rect
+      height="24"
+      width="24"
+    />
+  </svg>
+</div>
+`;

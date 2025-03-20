@@ -1,0 +1,3 @@
+const { VITE_BACKEND_HOST, VITE_TASKS_ENDPOINT } = import.meta.env;
+
+export { VITE_BACKEND_HOST, VITE_TASKS_ENDPOINT };

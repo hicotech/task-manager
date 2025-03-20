@@ -1,0 +1,10 @@
+{
+    "name": "@task-manager/shared-library",
+    "version": "1.0.0",
+    "types": "dist/index.d.ts",
+    "author": "Stanislav Majlath",
+    "private": true,
+    "scripts": {
+        "build": "rm -rf dist && tsc src/types/index.d.ts --declaration --emitDeclarationOnly --outDir dist && cp src/types/index.d.ts dist"
+    }
+}

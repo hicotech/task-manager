@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Empty State Renders Default 1`] = `
+.c0 {
+  display: flex;
+  align-items: center;
+}
+
+.c1 {
+  display: inline-block;
+  font-weight: 700;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  cursor: pointer;
+  color: #52778b;
+  background-color: transparent;
+  border-radius: 100rem;
+  border: 2px solid #52778b;
+  padding: 0.375rem 1.25rem;
+}
+
+.c1:hover {
+  color: #ffffff;
+  background-color: #52778b;
+}
+
+.c1:active {
+  border: 2px solid #ffffff;
+  box-shadow: 0px 0px 0px 2px #52778b;
+}
+
+<div>
+  <div
+    class="c0"
+  >
+    <button
+      class="c1"
+    >
+      Requests Tasks
+    </button>
+  </div>
+</div>
+`;

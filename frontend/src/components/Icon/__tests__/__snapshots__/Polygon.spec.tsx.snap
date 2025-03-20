@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[` 1`] = `
+<div>
+  <svg
+    fill="currentColor"
+    height="1.5rem"
+    viewBox="0 0 24 24"
+    width="1.5rem"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <polygon
+      points="12,0 24,8 19,24 4,24 0,8"
+    />
+  </svg>
+</div>
+`;
+
+exports[`Polygon Props testing Color 1`] = `
+<div>
+  <svg
+    fill="#ff0000"
+    height="1.5rem"
+    viewBox="0 0 24 24"
+    width="1.5rem"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <polygon
+      points="12,0 24,8 19,24 4,24 0,8"
+    />
+  </svg>
+</div>
+`;
+
+exports[`Polygon Props testing Size 1`] = `
+<div>
+  <svg
+    fill="currentColor"
+    height="3.5rem"
+    viewBox="0 0 24 24"
+    width="3.5rem"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <polygon
+      points="12,0 24,8 19,24 4,24 0,8"
+    />
+  </svg>
+</div>
+`;
