@@ -8,6 +8,8 @@ The project follows a simple Typescript monorepo structure using NPM workspaces 
 
 The application demonstrates a React based UI integrated with an Express API, providing basic task management functionality. While this is currently a minimal implementation based on requirements, the architecture and design choices allow for scalability and further development based on specific use cases.
 
+<img src="https://github.com/user-attachments/assets/9615633f-5523-4e6d-9a24-43b94c6f69b8" width="260"> <img src="https://github.com/user-attachments/assets/e3ad7fb5-6909-4459-8b53-708b0b7ffb8a" width="260"> <img src="https://github.com/user-attachments/assets/4470869b-65d1-4174-8ccb-62e5591fc543" width="260">
+
 Current Features:
 - Basic backend and frontend integration
 - Hot reload for both backend and frontend
@@ -24,8 +26,6 @@ Possible Improvements:
 - Implement E2E tests for full application workflow testing
 - Implement ESLint checking for consistent coding style and to catch potential issues
 - Replace NPM Workspaces with a monorepo management tool such as Lerna for better dependency handling and package versioning
-
-<img src="https://github.com/user-attachments/assets/9615633f-5523-4e6d-9a24-43b94c6f69b8" width="260"> <img src="https://github.com/user-attachments/assets/e3ad7fb5-6909-4459-8b53-708b0b7ffb8a" width="260"> <img src="https://github.com/user-attachments/assets/4470869b-65d1-4174-8ccb-62e5591fc543" width="260">
 
 For information about how to run development environments, formatting of code, testing and for development notes, please read below.
 
