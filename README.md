@@ -25,6 +25,8 @@ Possible Improvements:
 - Implement ESLint checking for consistent coding style and to catch potential issues
 - Replace NPM Workspaces with a monorepo management tool such as Lerna for better dependency handling and package versioning
 
+<img src="https://github.com/user-attachments/assets/9615633f-5523-4e6d-9a24-43b94c6f69b8" width="260"> <img src="https://github.com/user-attachments/assets/e3ad7fb5-6909-4459-8b53-708b0b7ffb8a" width="260"> <img src="https://github.com/user-attachments/assets/4470869b-65d1-4174-8ccb-62e5591fc543" width="260">
+
 For information about how to run development environments, formatting of code, testing and for development notes, please read below.
 
 > [!NOTE]
